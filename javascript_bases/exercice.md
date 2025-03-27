@@ -1,5 +1,7 @@
 # Exercices
 
+Créer 1 fichier JS par exercice et les faire.
+
 ## Exercice 1
 ```js
 // Crée une variable `prenom` contenant ton prénom
