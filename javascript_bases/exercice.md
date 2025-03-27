@@ -20,8 +20,8 @@ Créer 1 fichier JS par exercice et les faire.
 ## Exercice 3
 ```js
 // Crée un tableau appelé fruits contenant 3 fruits différents
-// Affiche le premier fruit
-// Ajoute un fruit à la fin du tableau
+// Affiche le premier fruit (Servez-vous des index)
+// Ajoute un fruit à la fin du tableau (recherchez la fonction "push" sur google)
 // Affiche le nouveau tableau
 ```
 
