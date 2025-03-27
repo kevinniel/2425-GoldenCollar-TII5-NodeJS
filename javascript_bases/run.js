@@ -76,3 +76,43 @@ switch (jour) {
     default:
         console.log("Milieu de semaine");
 }
+
+// 5. Boucles
+
+// FOR
+for (let i = 0; i < 5; i++) {
+    console.log(i);
+}
+
+// WHILE
+while (x < 10) {
+    console.log(x);
+    x++;
+}
+
+// DO WHILE (s'exécute au moins une fois)
+do {
+    console.log(x);
+    x++;
+}
+while (x < 10);
+
+// forEach (pour les tableaux)
+let tableau = [1, 2, 3];
+tableau.forEach(function (element) {
+    console.log(element);
+});
+
+// 6. Fonctions
+
+// fonctions de base
+function add(a, b) {
+    return a + b;
+}
+// affiche 3
+console.log( add(1, 2) );
+
+// fonctions fléchées
+let multiply = (a, b) => a * b;
+// affiche 6
+console.log( multiply(2, 3) );

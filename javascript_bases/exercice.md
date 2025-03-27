@@ -38,3 +38,63 @@ Créer 1 fichier JS par exercice et les faire.
 // Sinon si elle est entre 15 et 30, affiche "Temps agréable"
 // Sinon, affiche "Il fait froid"
 ```
+
+# Exercices à faire pour la prochaine fois (3 Avril 2025)
+
+## Exercice 6
+```js
+// Affiche les nombres de 1 à 10 inclus avec une boucle for
+```
+
+## Exercice 7
+```js
+// Utilise une boucle for pour afficher uniquement les nombres pairs entre 0 et 20
+```
+
+## Exercice 8
+```js
+// Crée une variable `compteur` à 10
+// Utilise une boucle while pour afficher un compte à rebours jusqu'à 0
+```
+
+## Exercice 9
+```js
+// Crée une variable x = 15
+// Utilise une boucle do...while pour afficher x une seule fois, même si x > 10
+```
+
+## Exercice 10
+```js
+// Crée un tableau de prénoms : ["Alice", "Bob", "Charlie"]
+// Utilise forEach pour afficher "Bonjour [prénom]" pour chaque élément
+```
+
+## Exercice 11
+```js
+// Crée une fonction `soustraction` qui prend deux paramètres et retourne le résultat
+// Appelle la fonction avec 15 et 7 et affiche le résultat
+```
+
+## Exercice 12
+```js
+// Crée une fonction fléchée `carre` qui retourne le carré d’un nombre
+// Affiche le carré de 9
+```
+
+## Exercice 13
+```js
+// Crée une fonction `saluer` qui prend un prénom et retourne "Bonjour [prénom] !"
+// Appelle cette fonction avec ton prénom
+```
+
+## Exercice 14
+```js
+// Crée une fonction `estPair` qui prend un nombre et retourne true si le nombre est pair, false sinon
+// Teste la fonction avec les nombres 4 et 7
+```
+
+## Exercice 15
+```js
+// Crée une fonction `moyenne` qui prend un tableau de nombres en paramètre et retourne leur moyenne
+// Exemple : moyenne([10, 15, 20]) → 15
+```
