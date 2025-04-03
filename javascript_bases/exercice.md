@@ -98,3 +98,14 @@ Créer 1 fichier JS par exercice et les faire.
 // Crée une fonction `moyenne` qui prend un tableau de nombres en paramètre et retourne leur moyenne
 // Exemple : moyenne([10, 15, 20]) → 15
 ```
+
+## Exercice 16
+```js
+// Générateur de mots de passe complexes (fonction) :
+
+// Il doit contenir au moins une lettre majuscule
+// Il doit contenir au moins une lettre minuscule
+// Il doit contenir au moins un chiffre
+// Il doit contenir au moins un caractère spécial (!@#$%^&*)
+// Sa longueur totale est passée en paramètre (minimum 8 caractères)
+```
