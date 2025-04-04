@@ -49,3 +49,22 @@ Faire en sorte que le menu qui s'affiche soit fonctionnel
 "test": "node --experimental-vm-modules node_modules/.bin/jest"
 ```
 3. Pensez à exporter l'ensemble de vos constantes du fichier "dab.js" pour pouvoir les réimporter après (cf fichiers dans le repo)
+
+## 1. Formaliser un plan de test
+
+Selon le modèle de tableau suivant :
+
+| ID | Fonctionnalité                        | Priorité | Statut  |
+|----|---------------------------------------|----------|---------|
+| T01| Inscription utilisateur               | Haute    | ✅ OK    |
+| T02| Connexion utilisateur                 | Haute    | ✅ OK    |
+| T03| Réinitialisation de mot de passe      | Moyenne  | 🟡 En cours |
+| T04| Création d’un projet                  | Haute    | 🔴 KO    |
+| T05| Suppression de compte utilisateur     | Basse    | 🟢 Validé |
+| T06| Responsive mobile de la page d’accueil| Moyenne  | 🟡 À tester |
+
+## 2. Réaliser les tests que tu as mis dans ton plan
+
+Tous les coder.
+
+Attention, vous devriez avoir au minimum 50 tests !
