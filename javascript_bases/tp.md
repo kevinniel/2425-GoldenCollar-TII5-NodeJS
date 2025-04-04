@@ -71,4 +71,13 @@ Attention, vous devriez avoir au minimum 50 tests !
 
 ## 3. Améliorer ton coverage
 
+Mettre en place le coverage en changeant la ligne suivante du package.json : 
+
+```json
+// cette ligne : 
+"test": "node --experimental-vm-modules node_modules/.bin/jest"
+// devient cette ligne : 
+"test": "node --experimental-vm-modules node_modules/.bin/jest --coverage"
+```
+
 Faire en sorte que le coverage soit à 100% !
