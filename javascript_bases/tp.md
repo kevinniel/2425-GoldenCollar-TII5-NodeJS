@@ -68,3 +68,7 @@ Selon le modèle de tableau suivant :
 Tous les coder.
 
 Attention, vous devriez avoir au minimum 50 tests !
+
+## 3. Améliorer ton coverage
+
+Faire en sorte que le coverage soit à 100% !
