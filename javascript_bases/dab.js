@@ -1,7 +1,7 @@
 import promptSync from 'prompt-sync';
 const prompt = promptSync();
 
-const stock = {
+export const stock = {
     coupures: {
         500: 0,
         200: 10,
@@ -11,7 +11,7 @@ const stock = {
         10: 10,
         5: 10,
         2: 10,
-        1: 10,
+        1: 0,
     },
 
     retirer: function(montant) {
@@ -34,7 +34,7 @@ const stock = {
     },
 }
 
-const compteBancaire = {
+export const compteBancaire = {
     solde: 100000,
 
     consulterSolde: function() {
@@ -66,7 +66,7 @@ const compteBancaire = {
 
 }
 
-const dab = {
+export const dab = {
     // initialisation
     initialiser: function() {
         console.clear();
@@ -139,4 +139,4 @@ const dab = {
     }
 }
 
-dab.initialiser();
+// dab.initialiser();

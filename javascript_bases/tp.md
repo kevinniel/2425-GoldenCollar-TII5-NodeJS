@@ -37,3 +37,15 @@ Faire en sorte que le menu qui s'affiche soit fonctionnel
     - 1 x 1€
 
 2. gèrer un stock de billets et de pièces dans le DAB. Les coupures utilisées lors des retraits doivent correspondre aux coupures disponibles en stock !
+
+# Tests unitaires
+
+1. installer JEST : `npm install --save-dev jest`
+2. changez cette ligne du package.json : 
+```json
+// changer cette ligne : 
+"test": "echo \"Error: no test specified\" && exit 1"
+// par cette ligne : 
+"test": "node --experimental-vm-modules node_modules/.bin/jest"
+```
+3. Pensez à exporter l'ensemble de vos constantes du fichier "dab.js" pour pouvoir les réimporter après (cf fichiers dans le repo)
